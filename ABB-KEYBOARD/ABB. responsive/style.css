@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 3rem;
+  background-color: #efeff0;
+}
+.header a {
+  color: #666;
+  font-size: 14px;
+  margin-left: 20px;
+
+}
+.button {
+  border: 1px solid blue;
+  padding: 7px;
+  border-radius: 20px;
+}
+.header .button {
+    color: blue;
+}
+.button:hover {
+  background-color: blue;
+  color: white;
+}
+.header .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header2{
+    align-items: center;
+    margin: 10px 20px 0px 20px;
+}
+.header .icon{
+    margin-left: 15px;
+}
+
+.header2 img{
+    width: 8.5%;
+    margin-left: px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header2 .text{
+    margin-right: 55%;
+}
+.header2 .text{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;   
+}
+.header2 .text2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: rgb(0,86,193);
+} 
+.line{
+    margin-top: 10px;
+    height: 1px;
+    background-color: rgb(180, 180, 180);
+    opacity: 0.2;
+}
+.header3{
+    margin: 20px 0px 0px 20px;
+}
+.header3  a{
+    padding: 10px;
+    font-weight: 400;
+    color: #17253a;
+}
